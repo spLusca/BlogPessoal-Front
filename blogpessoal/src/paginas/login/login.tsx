@@ -63,7 +63,7 @@ function Login() {
                     </form>
 
                     <Box display='flex' justifyContent='center' marginTop={2}>
-                        <Box marginRight={1}>
+                        <Box color={'black'} marginRight={1}>
                             <Typography variant='subtitle1' gutterBottom align='center'>Ainda não tem conta?</Typography>
                         </Box>
                         <Link to='/cadastro' className='link1'>
