@@ -2,12 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App.tsx'
 import './index.css'
-import Home from './paginas/home/Home'
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode>  
+    <App />  
   </React.StrictMode>,
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 )
